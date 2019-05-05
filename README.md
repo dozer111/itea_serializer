@@ -28,8 +28,10 @@ $testData = new SomeYourObject();
 # you can get json data like this 
 $data = (new SerializeFactory('json'))->serialize($testData);
 # or using one of SerializeFactory constants
-//$data = (new SerializeFactory(SerializeFactory::SERIALIZER_JSON))
+/*
+$data = (new SerializeFactory(SerializeFactory::SERIALIZER_JSON))
             ->serialize($testData);
+*/
 ```
 
 
