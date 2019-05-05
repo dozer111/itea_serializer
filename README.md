@@ -9,7 +9,8 @@ Library, for serializing object to:
 > \+ possibility to get setted visibility lvl properties  
 ---
 
-
+## Installing
+`composer require dozer111/serialize`
 
 
 
