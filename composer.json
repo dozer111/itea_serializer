@@ -1,0 +1,30 @@
+{
+    "name": "dozer111/serialize",
+    "description": "Serialize library for ITEA homework",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "dozer111",
+            "email": "dest2r4@gmail.com"
+        }
+
+    ],
+    "require":
+    {
+      "php": ">=7.1",
+      "ext-json": "*",
+      "ext-yaml": "*",
+      "ext-dom": "*"
+    },
+  "autoload": {
+    "psr-4": {
+      "dozer111\\serializer\\":"src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "dozer111\\test\\": "tests"
+    }
+  }
+}
